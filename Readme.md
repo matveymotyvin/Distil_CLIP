@@ -45,7 +45,7 @@ python main.py --data_dir /path/to/data/ --gpus=0 --precision=16 --max_epochs=10
 ```
 python main.py --data_dir /path/to/data/ --strategy=ddp --gpus=0,1,2,3 --precision=16 --max_epochs=100 --dataset=text_dataset --model_name=model_text_distilled
 ```
-4. Запуск обучения кодировщика текста на одном GPU
+2.2. Запуск обучения кодировщика текста на одном GPU
 ```
 python main.py --data_dir /path/to/data/ --gpus=0 --precision=16 --max_epochs=100 --dataset=text_dataset --model_name=model_text_distilled
 ```
